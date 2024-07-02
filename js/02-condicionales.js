@@ -12,4 +12,6 @@ const numeroSolicitado = parseInt(prompt('ingrese un numero entero'));
 
 if (numeroSolicitado > 0){
     document.write(`<p>El numero ingresado: ${numeroSolicitado} es positivo </p>`);
+}else{
+    document.write(`<p>El numero ingresado: ${numeroSolicitado} no es positivo </p>`);
 }
