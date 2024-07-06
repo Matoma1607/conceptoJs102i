@@ -26,3 +26,14 @@ do {
   document.write(`<p>Renglon numero ${linea} </p>`);
   linea++;
 } while (linea <= 5);
+
+// Estructura for:
+/* 
+for(let variable= 1; variable>10; variable++){
+aqui agrego todo el codigo que quiero repetir varias veces
+}
+*/
+
+for(let contador =10; contador > 0; contador --){
+  document.write(`<p>Cuenta regresiva ${contador}</p>`);
+}
